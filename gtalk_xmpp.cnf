@@ -1,0 +1,11 @@
+---
+agent:
+  password: your_passwd
+  resource: resource_name
+  username: your_username
+connection:
+  componentname: gmail.com
+  connectiontype: tcpip
+  hostname: talk.google.com
+  port: 5222
+  tls: 1

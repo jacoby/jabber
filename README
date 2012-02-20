@@ -1,0 +1,14 @@
+This is a Jabber client, written in Perl, to very simply send a message via XMPP.
+More on the protocol at http://xmpp.org/
+
+    jabber.pl jacoby.david@gmail.com This is a message
+
+    echo jacoby.david@gmail.com Yet another message | jabber.pl
+
+The jabber address of a client must be the first part of the message.
+
+Included is a file, gtalk_xmpp.cnf, which is roughly what you will need to have for
+a .xmpp.cnf file. The connection section is exactly what you will need to connect to
+Google Talk. The agent section has fields for username, password and resource. I trust
+that username and password are self-explanatory. Resource refers to which instance of a
+client is running, such as one user having an XMPP client open on several computers.
